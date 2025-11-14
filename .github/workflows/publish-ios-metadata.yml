@@ -3,9 +3,6 @@ name: Publish ios metadata
 on:
   workflow_dispatch:
 
-env:
-  FLUTTER_VERSION: "3.29.0"
-
 jobs:
   build:
     name: Upload metadata
@@ -34,8 +31,8 @@ jobs:
           APPSTORE_KEY_ID: ${{ secrets.APPSTORE_KEY_ID }}
           APPSTORE_P8: ${{ secrets.APPSTORE_P8 }}
 
-          IOS_BUNDLE_ID: ${{ vars.IOS_BUNDLE_ID }}
-          IOS_BUNDLE_ID_ONESIGNAL: ${{ vars.IOS_BUNDLE_ID_ONESIGNAL }}
+          IOS_BUNDLE_ID: ${{ secrets.IOS_BUNDLE_ID }}
+          #IOS_BUNDLE_ID_ONESIGNAL: ${{ vars.IOS_BUNDLE_ID_ONESIGNAL }}
 
           GH_PAT: ${{ secrets.GH_PAT }}
           GITHUB_REPOSITORY: ${{ env.GITHUB_REPOSITORY }}
@@ -183,9 +180,9 @@ jobs:
           APPSTORE_P8: ${{ secrets.APPSTORE_P8 }}
 
           IOS_BUILD_PATH: ${{ github.workspace }}
-          IOS_BUNDLE_ID: ${{ vars.IOS_BUNDLE_ID }}
-          IOS_BUNDLE_ID_ONESIGNAL: ${{ vars.IOS_BUNDLE_ID_ONESIGNAL }}
-          PROJECT_NAME: ${{ vars.APP_NAME }}
+          IOS_BUNDLE_ID: ${{ secrets.IOS_BUNDLE_ID }}
+          #IOS_BUNDLE_ID_ONESIGNAL: ${{ vars.IOS_BUNDLE_ID_ONESIGNAL }}
+          PROJECT_NAME: ${{ secrets.APP_NAME }}
         run: |
           eval "$(ssh-agent -s)"
           ssh-add - <<< "${MATCH_DEPLOY_KEY}"
