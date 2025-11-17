@@ -48,15 +48,15 @@ jobs:
         run: |
           echo "===== Validating Screenshots ====="
           # Check that screenshots folder exists
-          if [ ! -d "./fastlane/screenshots" ]; then
+          if [ ! -d "./screenshots" ]; then
             echo "ERROR: Screenshots directory not found at ./fastlane/screenshots"
             exit 1
           fi
           
           # List and count all locale folders
-          LOCALE_FOLDERS=$(find ./fastlane/screenshots -maxdepth 1 -type d | grep -v "^./fastlane/screenshots$" | wc -l)
+          LOCALE_FOLDERS=$(find ./screenshots -maxdepth 1 -type d | grep -v "^./screenshots$" | wc -l)
           echo "Found $LOCALE_FOLDERS locale folders in screenshots directory"
-          find ./fastlane/screenshots -maxdepth 1 -type d | grep -v "^./fastlane/screenshots$" | sort | while read LOCALE_DIR; do
+          find ./screenshots -maxdepth 1 -type d | grep -v "^./screenshots$" | sort | while read LOCALE_DIR; do
             LOCALE=$(basename "$LOCALE_DIR")
             echo "Processing locale: $LOCALE"
             
@@ -86,14 +86,14 @@ jobs:
           done
           
           # Require en-US locale at minimum
-          if [ ! -d "./fastlane/screenshots/en-US" ]; then
+          if [ ! -d "./screenshots/en-US" ]; then
             echo "ERROR: Required en-US locale directory is missing in screenshots"
             exit 1
           fi
           
           # Verify en-US has at least one iPhone and one iPad folder
-          IPHONE_FOLDERS=$(find "./fastlane/screenshots/en-US" -type d -name "iPhone*" | wc -l)
-          IPAD_FOLDERS=$(find "./fastlane/screenshots/en-US" -type d -name "iPad*" | wc -l)
+          IPHONE_FOLDERS=$(find "./screenshots/en-US" -type d -name "iPhone*" | wc -l)
+          IPAD_FOLDERS=$(find "./screenshots/en-US" -type d -name "iPad*" | wc -l)
           
           if [ "$IPHONE_FOLDERS" -eq 0 ]; then
             echo "ERROR: No iPhone screenshot folders found in en-US locale"
