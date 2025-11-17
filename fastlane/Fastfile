@@ -168,12 +168,12 @@ desc "Upload metadata"
         )
 
         # Verify that the screenshots directory exists
-        unless Dir.exist?("./screenshots")
+        unless Dir.exist?("./fastlane/screenshots")
           UI.user_error!("Screenshots directory not found at ./screenshots")
         end
         
         # Scan all locales in the screenshots folder
-        locale_dirs = Dir.glob("./screenshots/*").select { |f| File.directory?(f) }
+        locale_dirs = Dir.glob("./fastlane/screenshots/*").select { |f| File.directory?(f) }
         UI.success("Found #{locale_dirs.size} locale directories in screenshots folder")
         
         locale_dirs.each do |locale_dir|
@@ -199,12 +199,12 @@ desc "Upload metadata"
         end
         
         # Require en-US locale at minimum
-        unless Dir.exist?("./screenshots/en-US")
+        unless Dir.exist?("./fastlane/screenshots/en-US")
           UI.user_error!("Required en-US locale directory is missing in screenshots")
         end
         
         # Verify en-US has at least one iPhone folder
-        unless Dir.glob("./screenshots/en-US/iPhone*").any?
+        unless Dir.glob("./fastlane/screenshots/en-US/iPhone*").any?
           UI.user_error!("No iPhone screenshot folders found in en-US locale")
         end
 
@@ -357,6 +357,7 @@ desc "Upload metadata"
     end
 
 end
+
 
 
 
