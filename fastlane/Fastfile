@@ -312,7 +312,7 @@ desc "Upload metadata"
           #############################################################
           UI.message("=== Detecting screenshots that will be uploaded ===")
           
-          screenshots = Deliver::UploadScreenshots.new.load_from_path("fastlane/screenshots")
+          screenshots = Deliver::UploadScreenshots.new.load_from_path("./screenshots")
           if screenshots.empty?
             UI.important("⚠️ No screenshots detected by fastlane!")
           else
@@ -377,6 +377,7 @@ desc "Upload metadata"
     end
 
 end
+
 
 
 
