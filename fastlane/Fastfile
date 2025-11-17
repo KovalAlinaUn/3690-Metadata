@@ -305,22 +305,14 @@ desc "Upload metadata"
 
           # ...перед цим весь код валідації...
           
-          UI.success("Using metadata_path: #{metadata_path} and screenshots_path: #{screenshots_path}")
-          
-          #############################################################
-          # 🔍 ЛОГУЄМО РЕАЛЬНІ СКРІНИ, ЯКІ FASTLANE ЗБИРАЄТЬСЯ ЗАЛИТИ
-          #############################################################
-          UI.message("=== Detecting screenshots that will be uploaded ===")
-          
-          screenshots = Deliver::UploadScreenshots.new.load_from_path("./screenshots")
+          UI.message("=== Uploading screenshots ===")
+
+          screenshots = Dir["./screenshots/**/*.{jpg,png}"]
           if screenshots.empty?
-            UI.important("⚠️ No screenshots detected by fastlane!")
+            UI.error("No screenshots found!")
           else
-            screenshots.each do |s|
-              UI.message("📤 Will upload: #{s.path} (device: #{s.device_type})")
-            end
+            screenshots.each { |s| UI.message("⬆️ Uploading: #{s}") }
           end
-          UI.message("=============================================")
           #############################################################
           
           deliver(
@@ -377,6 +369,7 @@ desc "Upload metadata"
     end
 
 end
+
 
 
 
