@@ -307,7 +307,7 @@ desc "Upload metadata"
           
           UI.message("=== Uploading screenshots ===")
 
-          screenshots = Dir["./screenshots/**/*.{jpg,png}"]
+          screenshots = Dir["fastlane/screenshots/**/*.{jpg,png}"]
           if screenshots.empty?
             UI.error("No screenshots found!")
           else
@@ -369,6 +369,7 @@ desc "Upload metadata"
     end
 
 end
+
 
 
 
