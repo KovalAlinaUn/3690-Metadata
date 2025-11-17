@@ -336,18 +336,13 @@ desc "Upload metadata"
                   add_id_info_uses_idfa: true,
             },
             app_review_information: {
-                first_name: "Robert David",
-                last_name: "Palmer",
-                phone_number: "+19472255104",
-                email_address: "robdavi4pa@icloud.com",
-                demo_username: "",
-                demo_password: "",
-                notes: "
-Hello,
-Please review my app.
-I've fixed some minor bugs in the Yatzy game.
-Best regards
-"
+                first_name: "Alina",
+                last_name: "Koval",
+                phone_number: "+380979413264",
+                email_address: "alinkakovv@gmail.com",
+                demo_username: "test",
+                demo_password: "123456",
+                notes: "Testing info"
               },
             reject_if_possible: false,
             overwrite_screenshots: true,
@@ -362,4 +357,5 @@ Best regards
     end
 
 end
+
 
