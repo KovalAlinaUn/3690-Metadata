@@ -71,9 +71,9 @@ jobs:
             fi
             
             if [ "$IPAD_FOLDERS" -eq 0 ]; then
-              echo "WARNING: No iPad screenshot folders found in $LOCALE_DIR"
+              echo "WARNING: No iPad screenshot folders found in en-US locale (skipping iPad validation)"
             else
-              echo "Found $IPAD_FOLDERS iPad screenshot folders in $LOCALE"
+              echo "Found $IPAD_FOLDERS iPad screenshot folders in en-US locale"
             fi
             
             # Count screenshots in each device folder
