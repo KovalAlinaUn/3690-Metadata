@@ -314,19 +314,6 @@ desc "Upload metadata"
             screenshots.each { |s| UI.message("⬆️ Uploading: #{s}") }
           end
           #############################################################
-
-          UI.message("=== Detecting screenshots that will be uploaded ===")
-          
-          screenshots = Deliver::UploadScreenshots.new.load_from_path("./screenshots")
-          if screenshots.empty?
-            UI.important("⚠️ No screenshots detected by fastlane!")
-          else
-            screenshots.each do |s|
-              UI.message("📤 Will upload: #{s.path} (device: #{s.device_type}, locale: #{s.language})")
-            end
-          end
-          
-          UI.message("=============================================")
           
           deliver(
             app_identifier:"#{ENV['IOS_BUNDLE_ID']}",
@@ -382,6 +369,7 @@ desc "Upload metadata"
     end
 
 end
+
 
 
 
