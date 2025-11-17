@@ -169,7 +169,7 @@ desc "Upload metadata"
 
         # Verify that the screenshots directory exists
         unless Dir.exist?("./fastlane/screenshots")
-          UI.user_error!("Screenshots directory not found at ./screenshots")
+          UI.user_error!("Screenshots directory not found at fastlane/screenshots")
         end
         
         # Scan all locales in the screenshots folder
@@ -357,6 +357,7 @@ desc "Upload metadata"
     end
 
 end
+
 
 
 
