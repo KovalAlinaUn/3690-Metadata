@@ -1,1 +1,1 @@
-Olá mundo
+Lançamento da versão 1.0 do aplicativo

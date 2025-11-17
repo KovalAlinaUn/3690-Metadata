@@ -1,1 +1,7 @@
-bu oyun dünyadaki en muhteşem oyundur
+Steady Warriors, roguelike ve gacha öğeleri içeren bir savunma hayatta kalma oyunudur. Göreviniz, çiftliği dört mevsim boyunca savunacak bir kahraman ekibi kurmaktır.
+
+Oyuna mevcut kahramanlarınızla başlayın, on dalga boyunca savunma yapın. Her dalgada farklı düşmanlar bulunur ve bazı dalgalar elittir; son dalga ise seviyeyi geçmek için boss dalgasıdır. Her sezon, giderek zorlaşan üç seviyeden oluşur. Bir seviyeye başladığınızda, iki karakterle başlayın, ardından her dalgada kahraman hattınızı genişletebilir veya içlerinden birini seviye atlatabilirsiniz. Çiftliği savunun, canavarları yenin ve para kazanın.
+
+Kazandığınız parayı yeni kahramanlar edinmek veya destenizdeki kahramanları geliştirmek için harcayın. Her karakterin Can, Saldırı ve Saldırı Hızı gibi çeşitli istatistikleri vardır. İstatistikleri geliştirmek, temel seviyeyi iyileştirir ve bu da seviye atlamalarını daha da güçlü hale getirir. Ayrıca, düşmanlara hasar vermek için iyileştirme ve bomba gibi bonus öğeler satın almak için para harcayabilirsiniz.
+
+Tüm mevsimlerde hayatta kalmaya hazır mısınız? Ekibinizi kurun, çiftliğinizi savunun, başarıları tamamlayın ve güçlenin. Steady Warriors'ı hemen indirin!

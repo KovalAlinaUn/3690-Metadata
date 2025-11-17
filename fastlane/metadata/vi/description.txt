@@ -1,1 +1,7 @@
-trò chơi này là trò chơi tuyệt vời nhất trên thế giới
+Steady Warriors là một game sinh tồn phòng thủ kết hợp yếu tố roguelike và gacha. Nhiệm vụ của bạn là tập hợp một đội hình anh hùng để bảo vệ nông trại qua bốn mùa hỗn loạn.
+
+Bắt đầu trò chơi với các anh hùng có sẵn, phòng thủ qua mười đợt tấn công, mỗi đợt có nhiều loại kẻ thù khác nhau và một số đợt tấn công là tinh nhuệ, với đợt tấn công cuối cùng là đợt tấn công trùm để vượt qua màn chơi. Mỗi mùa có ba cấp độ với độ khó tăng dần. Khi bắt đầu một cấp độ, hãy chọn hai nhân vật để bắt đầu, sau đó mỗi đợt tấn công, bạn sẽ có thể mở rộng đội hình anh hùng của mình hoặc nâng cấp một trong số họ. Bảo vệ nông trại, đánh bại quái vật và kiếm xu.
+
+Hãy dùng xu kiếm được để mua anh hùng mới hoặc nâng cấp những anh hùng bạn có trong nhóm. Mỗi nhân vật đều có các chỉ số khác nhau như Máu, Tấn công và Tốc độ Tấn công. Nâng cấp chỉ số sẽ cải thiện chỉ số cơ bản, giúp việc lên cấp trở nên mạnh mẽ hơn. Bạn cũng có thể dùng xu để mua các vật phẩm thưởng như hồi máu và bom để gây sát thương lên kẻ thù.
+
+Bạn đã sẵn sàng sống sót qua mọi mùa giải chưa? Hãy tập hợp đội hình, bảo vệ nông trại, hoàn thành các thành tích và trở nên mạnh mẽ hơn. Tải Steady Warriors ngay!

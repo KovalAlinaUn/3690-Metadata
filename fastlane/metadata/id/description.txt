@@ -1,1 +1,7 @@
-game ini adalah game paling keren di dunia
+Steady Warriors adalah game bertahan hidup dengan elemen roguelike dan gacha. Tugas Anda adalah mengumpulkan pasukan pahlawan yang akan mempertahankan pertanian selama empat musim yang penuh kekacauan.
+
+Mulai permainan dengan pahlawan yang tersedia, bertahanlah melalui sepuluh gelombang, setiap gelombang memiliki beragam musuh yang berbeda dan beberapa gelombang bersifat elit dengan gelombang terakhir menjadi gelombang bos untuk melewati level. Setiap musim memiliki tiga level dengan tingkat kesulitan progresif. Saat Anda memulai level, pilih dua karakter untuk memulai, lalu di setiap gelombang Anda akan dapat memperluas jajaran pahlawan Anda atau menaikkan level salah satunya. Pertahankan pertanian, kalahkan monster, dapatkan koin.
+
+Gunakan koin yang Anda peroleh untuk mendapatkan pahlawan baru atau meningkatkan yang ada di paket Anda. Setiap karakter memiliki beragam statistik seperti Kesehatan, Serangan, dan Kecepatan Serangan. Meningkatkan statistik meningkatkan baseline yang membuat peningkatan level menjadi lebih kuat. Anda juga dapat menggunakan koin untuk membeli item bonus seperti penyembuhan dan bom untuk memberikan kerusakan pada musuh.
+
+Siap bertahan di semua musim? Kumpulkan pasukan, pertahankan pertanian, selesaikan pencapaian, dan jadilah lebih kuat. Unduh Steady Warriors sekarang!

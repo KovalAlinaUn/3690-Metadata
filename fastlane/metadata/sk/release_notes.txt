@@ -1,1 +1,1 @@
-ahoj svet
+Vydanie aplikácie 1.0

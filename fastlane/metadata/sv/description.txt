@@ -1,1 +1,7 @@
-det här spelet är det grymmaste spelet i världen
+Steady Warriors är ett försvarsspel med överlevnadselement och roguelike-element. Din uppgift är att samla en trupp hjältar som ska försvara gården genom fyra säsonger av kaos.
+
+Starta spelet med tillgängliga hjältar, försvara dig genom tio vågor. Varje våg har ett urval av olika fiender och vissa vågor är elit, där den sista vågen är en bossvåg för att klara nivån. Varje säsong har tre nivåer med progressiv svårighetsgrad. När du börjar en nivå, välj två karaktärer till att börja med, sedan kan du i varje våg antingen utöka din hjältelinje eller nivåera en av dem. Försvar gården, besegra monster, tjäna mynt.
+
+Spendera dina tjänade mynt på att få nya hjältar eller uppgradera de du har i din flock. Varje karaktär har ett urval av statistik som hälsa, attack och attackhastighet. Att uppgradera statistiken förbättrar baslinjen vilket gör nivåuppgraderingar ännu kraftfullare. Du kan också spendera mynt på att köpa bonusföremål som läkning och bomber för att skada fienderna.
+
+Redo att överleva alla säsonger? Samla truppen, försvara gården, slutför prestationer och bli starkare. Ladda ner Steady Warriors nu!

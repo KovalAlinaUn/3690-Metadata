@@ -1,1 +1,1 @@
-ahoj světe
+Vydání aplikace 1.0

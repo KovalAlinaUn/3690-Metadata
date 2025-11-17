@@ -1,1 +1,7 @@
-tämä peli on maailman mahtavin peli
+Steady Warriors on puolustuspeli, jossa on roguelike- ja gacha-elementtejä. Tehtäväsi on koota sankariryhmä, joka puolustaa maatilaa neljän kaaoksen täyttämän vuodenajan läpi.
+
+Aloita peli saatavilla olevilla sankareilla ja puolustaudu kymmenen aallon läpi. Jokaisessa aallossa on erilaisia ​​vihollisia, ja jotkut aallot ovat eliittiaaltoja, joista viimeinen on pomoaalto tason läpäisemiseksi. Jokaisella kaudella on kolme tasoa, joiden vaikeusaste vaihtelee. Kun aloitat tason, valitse kaksi hahmoa, ja jokaisella aallolla voit joko laajentaa sankaririviäsi tai nostaa yhden heistä tasolle. Puolusta maatilaa, voita hirviöitä ja ansaitse kolikoita.
+
+Käytä ansaitsemasi kolikko uusien sankarien hankkimiseen tai pakassasi olevien parantamiseen. Jokaisella hahmolla on erilaisia ​​ominaisuuksia, kuten terveys, hyökkäys ja hyökkäysnopeus. Ominaisuuksien päivittäminen parantaa perustasoa, mikä tekee tasojen noususta entistä tehokkaampaa. Voit myös käyttää kolikoita bonusesineiden, kuten parannusten ja pommien, ostamiseen vihollisten vahingoittamiseksi.
+
+Valmis selviytymään kaikista vuodenajoista? Kokoa joukkue, puolusta maatilaa, suorita saavutuksia ja tule vahvemmaksi. Lataa Steady Warriors nyt!

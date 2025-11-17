@@ -1,1 +1,1 @@
-game, balloon,family,test
+game, defence, survival, farm, heroes, upgrade, gacha, team, achievments, play

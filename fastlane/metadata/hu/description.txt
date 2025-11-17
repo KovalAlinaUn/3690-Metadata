@@ -1,1 +1,7 @@
-ez a játék a világ legkirályabb játéka
+A Steady Warriors egy védekezéses túlélőjáték roguelike és gacha elemekkel. A feladatod, hogy összeállíts egy csapat hőst, akik négy káoszos évszakon keresztül védik a farmot.
+
+Kezdd a játékot a rendelkezésre álló hősökkel, védekezz tíz hullámon keresztül, minden hullámban különböző ellenségek vannak, néhány hullám elit hullám, a végső hullám pedig egy főellenség hullám, hogy átmenj a szinten. Minden évszaknak három szintje van, progresszív nehézségi szinttel. Amikor elkezdesz egy szintet, válassz ki két karaktert, majd minden hullámban bővítheted a hőseid sorát, vagy szintet léphetsz közülük. Védd meg a farmot, győzd le a szörnyeket, szerezz érméket.
+
+Költsd el a megszerzett érméidet új hősök megszerzésére vagy a csomagodban lévők fejlesztésére. Minden karakternek van egy választéka az életerőről, a támadásról és a támadási sebességről. A statisztikák fejlesztése javítja az alapszintet, ami még erősebbé teszi a szintlépéseket. Érméket költhetsz bónusz tárgyak, például gyógyítás és bomba vásárlására is, hogy sebzést okozz az ellenségeknek.
+
+Készen állsz, hogy túlélj minden évszakot? Állítsd össze a csapatot, védd meg a farmot, teljesítsd az eredményeket, és válj erősebbé. Töltsd le most a Steady Warriors játékot!

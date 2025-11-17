@@ -1,1 +1,7 @@
-acest joc este cel mai tare joc din lume
+Steady Warriors este un joc de supraviețuire cu elemente roguelike și gacha. Sarcina ta este să aduni o echipă de eroi care vor apăra ferma pe parcursul a patru sezoane de haos.
+
+Începe jocul cu eroii disponibili, apără-te prin zece valuri, fiecare valuri având o varietate de inamici diferiți, iar unele valuri sunt de elită, valul final fiind valul șefului pentru a trece nivelul. Fiecare sezon are trei niveluri cu dificultate progresivă. Când începi un nivel, alege două personaje pentru început, apoi în fiecare valuri vei putea fie să-ți extinzi linia de eroi, fie să treci la nivelul unuia dintre ei. Apără ferma, învinge monștri, câștigă monede.
+
+Cheltuie monedele câștigate pentru a obține noi eroi sau pentru a-i îmbunătăți pe cei pe care îi ai în pachet. Fiecare personaj are o varietate de statistici precum Sănătate, Atac și Viteză de Atac. Îmbunătățirea statisticilor îmbunătățește nivelul de bază, ceea ce face ca nivelurile să fie și mai puternice. De asemenea, poți cheltui monede pentru a cumpăra obiecte bonus precum vindecare și bombă pentru a provoca daune inamicilor.
+
+Ești gata să supraviețuiești tuturor sezoanelor? Adună echipa, apără ferma, finalizează realizări și devino mai puternic. Descarcă Steady Warriors acum!

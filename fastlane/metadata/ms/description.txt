@@ -1,1 +1,7 @@
-permainan ini adalah permainan yang lebih hebat di dunia
+Steady Warriors ialah permainan bertahan hidup dengan elemen roguelike dan gacha. Tugas anda adalah untuk mengumpulkan skuad wira yang akan mempertahankan ladang melalui empat musim huru-hara. 
+
+Mulakan permainan dengan wira yang ada, bertahan melalui sepuluh gelombang, setiap gelombang mempunyai pelbagai jenis musuh yang berbeza dan beberapa gelombang adalah elit dengan gelombang terakhir menjadi gelombang bos untuk melepasi tahap. Setiap musim mempunyai tiga peringkat dengan kesukaran progresif. Apabila anda memulakan tahap pilih dua watak untuk bermula, maka setiap gelombang anda akan dapat sama ada untuk mengembangkan barisan wira anda atau ke tahap satu daripada mereka. Pertahankan ladang, kalahkan raksasa, dapatkan syiling. 
+
+Belanjakan syiling yang anda perolehi untuk mendapatkan wira baharu atau menaik taraf yang anda ada dalam pek anda. Setiap watak mempunyai pelbagai statistik seperti Kesihatan, Serangan dan Kelajuan Serangan. Menaik taraf statistik meningkatkan garis dasar yang menjadikan peningkatan tahap lebih hebat. Anda juga boleh membelanjakan syiling untuk membeli item bonus seperti penyembuhan dan bom untuk menangani kerosakan kepada musuh.
+
+Bersedia untuk bertahan sepanjang musim? Kumpulkan skuad, pertahankan ladang, selesaikan pencapaian, dan jadilah lebih kuat. Muat turun Steady Warriors sekarang!

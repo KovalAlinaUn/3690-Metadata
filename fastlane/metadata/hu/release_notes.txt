@@ -1,1 +1,1 @@
-helló világ
+1.0 alkalmazáskiadás
