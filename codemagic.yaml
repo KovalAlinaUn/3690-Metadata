@@ -10,8 +10,8 @@ workflows:
         # тут мають лежати APPSTORE_ISSUER_ID, APPSTORE_KEY_ID, APPSTORE_P8, APPLE_EMAIL
         - appstore-connect
       vars:
-        IOS_BUNDLE_ID: com.solkovalproj.app
-        APP_NAME: Highway Story
+        IOS_BUNDLE_ID: com.steadywarriors.app
+        APP_NAME: Steady Warriors
 
     scripts:
       - name: Print working dir & contents
