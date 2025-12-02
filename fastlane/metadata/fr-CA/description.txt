@@ -2,6 +2,6 @@ Steady Warriors est un jeu de survie et de défense mêlant roguelike et gacha. 
 
 Démarrez avec les héros disponibles et défendez-vous à travers dix vagues d'ennemis variés. Certaines vagues sont réservées aux élites, et la dernière est un boss à affronter pour terminer le niveau. Chaque saison comporte trois niveaux à la difficulté progressive. Au début de chaque niveau, choisissez deux personnages. À chaque vague, vous pourrez agrandir votre équipe ou faire progresser l'un de vos héros. Défendez la ferme, terrassez les monstres et gagnez des pièces.
 
-Utilisez vos pièces pour recruter de nouveaux héros ou améliorer ceux de votre équipe. Chaque personnage possède des statistiques comme la santé, l'attaque et la vitesse d'attaque. Améliorer ces statistiques renforce les héros de base et rend les passages de niveau encore plus puissants. Vous pouvez également acheter des bonus, comme des soins et des bombes, pour infliger des dégâts aux ennemis.
+Utilisez vos pièces pour recruter de nouveaux héros ou améliorer ceux de votre équipe. Chaque personnage possède des statistiques comme la santé, l'attaque et la vitesse d'attaque. Améliorer ces statistiques renforce les héros de base et rend les passages de niveau encore plus puissants. Vous pouvez également acheter des bonus comme des soins et des bombes pour infliger des dégâts aux ennemis.
 
 Prêt à survivre à toutes les saisons ? Constituez votre équipe, défendez la ferme, accomplissez des succès et devenez plus fort ! Téléchargez Steady Warriors maintenant !
