@@ -76,11 +76,15 @@ platform :ios do
       submit_for_review: false,
       force: true,
       metadata_path: "fastlane/metadata",
+      
+      # 🔹 ДОДАЛИ: шлях до скрінів
+      screenshots_path: "fastlane/screenshots",
+      
       skip_app_version_update: true,
       skip_binary_upload: true,
-      skip_screenshots: true,
+      skip_screenshots: false,
       automatic_release: false,
-      overwrite_screenshots: false,
+      overwrite_screenshots: true,
       precheck_include_in_app_purchases: false,
       verbose: true,
       submission_information: {
@@ -116,4 +120,5 @@ platform :ios do
     )
   end
 end
+
 
