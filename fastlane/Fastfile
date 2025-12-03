@@ -1,9 +1,7 @@
 platform :ios do
-  #######################################################
-  #  Upload metadata (Codemagic → App Store Connect)
-  #######################################################
-  desc "Upload metadata"
+  desc "Upload metadata + screenshots"
   lane :upload_metadata do
+    # 1. Підключаємось до App Store Connect
     app_store_connect_api_key(
       key_id: ENV["APPSTORE_KEY_ID"],
       issuer_id: ENV["APPSTORE_ISSUER_ID"],
@@ -12,6 +10,7 @@ platform :ios do
 
     UI.message("Current directory: #{Dir.pwd}")
 
+    # 2. Знаходимо metadata_path (як і було)
     possible_metadata_paths = [
       "metadata",
       "./metadata",
@@ -47,7 +46,7 @@ platform :ios do
     UI.message("APPSTORE_P8 set: #{!ENV['APPSTORE_P8'].to_s.empty?}")
     UI.message("Bundle ID: #{ENV['IOS_BUNDLE_ID']}")
 
-    # review_information (опційно, але хай буде)
+    # 3. REVIEW INFO (як було)
     review_info_path = File.join(metadata_path, "review_information")
     if Dir.exist?(review_info_path)
       required_files = %w[first_name.txt last_name.txt email_address.txt phone_number.txt]
@@ -71,22 +70,31 @@ platform :ios do
       UI.error("Missing review_information directory in metadata path")
     end
 
+    # 4. 🔍 ДЕБАГ ДЛЯ СКРІНІВ
+    screenshots_path = "fastlane/screenshots"
+    UI.message("Looking for screenshots in: #{File.expand_path(screenshots_path)}")
+
+    screenshots = Dir.glob("#{screenshots_path}/**/*.{png,jpg,jpeg}")
+    UI.message("Found #{screenshots.size} screenshot file(s):")
+    screenshots.each { |p| UI.message("  - #{p}") }
+
+    # 5. ВИКЛИКАЄМО deliver
     deliver(
       app_identifier: ENV["IOS_BUNDLE_ID"],
       submit_for_review: false,
       force: true,
+
       metadata_path: "fastlane/metadata",
-      
-      # 🔹 ДОДАЛИ: шлях до скрінів
-      screenshots_path: "fastlane/screenshots",
-      
+      screenshots_path: screenshots_path,   # ← тут ТВОЇ скріни
+
       skip_app_version_update: true,
       skip_binary_upload: true,
-      skip_screenshots: false,
+      skip_screenshots: false,             # ← важливо!
       automatic_release: false,
       overwrite_screenshots: true,
       precheck_include_in_app_purchases: false,
       verbose: true,
+
       submission_information: {
         export_compliance_available_on_french_store: false,
         export_compliance_contains_proprietary_cryptography: false,
@@ -114,11 +122,9 @@ platform :ios do
       reject_if_possible: false,
       run_precheck_before_submit: true,
       precheck_include_in_app_purchases: false,
-      submit_for_review: false, # temporary
+      submit_for_review: false,
       automatic_release: true,
       precheck_default_rule_level: ":warn"
     )
   end
 end
-
-
