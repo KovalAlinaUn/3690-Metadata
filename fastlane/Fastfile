@@ -71,7 +71,7 @@ platform :ios do
     end
 
     # 4. 🔍 ДЕБАГ ДЛЯ СКРІНІВ
-    screenshots_path = "fastlane/screenshots"
+    screenshots_path = "screenshots"
     UI.message("Looking for screenshots in: #{File.expand_path(screenshots_path)}")
 
     screenshots = Dir.glob("#{screenshots_path}/**/*.{png,jpg,jpeg}")
@@ -128,3 +128,4 @@ platform :ios do
     )
   end
 end
+
