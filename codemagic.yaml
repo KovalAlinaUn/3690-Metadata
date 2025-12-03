@@ -89,18 +89,18 @@ workflows:
       - name: Validate screenshots directory structure
         script: |
           echo "===== Validating Screenshots ====="
-          if [ ! -d "./fastlane/screenshots" ]; then
-            echo "WARNING: No screenshots directory at ./fastlane/screenshots"
+          if [ ! -d "./screenshots" ]; then
+            echo "WARNING: No screenshots directory at ./screenshots"
             exit 0
           fi
 
-          if [ ! -d "./fastlane/screenshots/en-US" ]; then
-            echo "WARNING: No en-US screenshots folder in ./fastlane/screenshots"
+          if [ ! -d "./screenshots/en-US" ]; then
+            echo "WARNING: No en-US screenshots folder in ./screenshots"
           fi
 
           # Перебираємо всі локалі
-          find ./fastlane/screenshots -maxdepth 1 -type d | \
-            grep -v "^./fastlane/screenshots$" | sort | while read LOCALE_DIR; do
+          find ./screenshots -maxdepth 1 -type d | \
+            grep -v "^./screenshots$" | sort | while read LOCALE_DIR; do
               LOCALE=$(basename "$LOCALE_DIR")
               echo "Checking screenshots for locale: $LOCALE"
 
