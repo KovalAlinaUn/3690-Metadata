@@ -81,6 +81,8 @@ platform :ios do
     # 5. ВИКЛИКАЄМО deliver
     deliver(
       app_identifier: ENV["IOS_BUNDLE_ID"],
+      app_version: "1.0",
+      languages: ['en-US'],
       submit_for_review: false,
       force: true,
 
@@ -128,6 +130,7 @@ platform :ios do
     )
   end
 end
+
 
 
 
