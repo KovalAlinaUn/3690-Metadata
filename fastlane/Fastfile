@@ -1,15 +1,4 @@
 platform :ios do
-  desc "Upload screenshots (non-interective)"
-  lane :upload_screenshots do
-    upload_to_app_store(
-      skip_screenshots: false,
-      skip_binary_upload: true,
-      precheck_include_in_app_purcheses: false,
-      run_precheck_before_submit: false,
-      force: true,
-    )
-  end
-
   desc "Upload metadata + screenshots"
   lane :upload_metadata do
     # 1. Підключаємось до App Store Connect
@@ -139,6 +128,7 @@ platform :ios do
     )
   end
 end
+
 
 
 
