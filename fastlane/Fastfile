@@ -4,7 +4,6 @@ platform :ios do
     upload_to_app_store(
       skip_screenshots: false,
       skip_binary_upload: true,
-      api_key_path: "./fastlane/app-store-connect-api-key.json",
       precheck_include_in_app_purcheses: false,
       run_precheck_before_submit: false,
       force: true,
@@ -140,5 +139,6 @@ platform :ios do
     )
   end
 end
+
 
 
