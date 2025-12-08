@@ -118,6 +118,10 @@ workflows:
         script: |
           bundle exec fastlane ios upload_metadata
 
+      - name: Upload screenshots (non-interective)
+        script: |
+          bundle exec fastlane ios upload_screenshots
+
     artifacts:
       - fastlane/logs/**/*
 
